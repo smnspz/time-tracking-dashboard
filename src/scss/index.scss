@@ -1,1 +1,7 @@
-@import "~normalize.css";
+// Using https://matthewelsom.com/blog/simple-scss-playbook.html#file-structure
+
+@import "abstracts/_abstracts-dir";
+@import "base/_base-dir";
+@import "components/_components-dir";
+@import "layouts/_layouts-dir";
+@import "vendor/_vendor-dir";
