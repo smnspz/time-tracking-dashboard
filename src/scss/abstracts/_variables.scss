@@ -23,3 +23,9 @@ $font--180: 18px;
 $weight--300: 300;
 $weight--400: 400;
 $weight--500: 500;
+
+/* BREAKPOINTS
+____________*/
+
+$breakpoint-mobile: "min-width: 375px";
+$breakpoint-desktop: "min-width: 1440px";
