@@ -1,0 +1,13 @@
+.main-content {
+	display: grid;
+	place-content: center;
+	grid-template-columns: repeat(4, 1fr);
+
+	&:first-child {
+		grid-row: span 2;
+	}
+
+	&:last-child {
+		grid-column: 4;
+	}
+}
