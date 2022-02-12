@@ -2,7 +2,6 @@
 	&:first-child {
 		grid-row: span 2;
 	}
-
 	&:nth-child(5) {
 		grid-column: 2;
 	}
@@ -12,4 +11,5 @@
 	&:last-child {
 		grid-column: 4;
 	}
+
 }
